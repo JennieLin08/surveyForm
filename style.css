@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  
+}
+
+.container{
+  margin: auto;
+  padding:30px;
+  border: 1px gray;
+}
+
+/* Surver Form CSS  */
+.firstView{
+ background-color: #673ab7; 
+ color: #fff;
+ border-radius: 20px;
+ padding: 20px;
+}
+
+#title{
+  font-weight: 1000;
+}
+#description{
+  font-weight: 500;
+}
+
+#survey-form{
+  padding: 20px;
+  border-radius: 10px;
+  border: .5px #d1d1d1;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2); 
+}
+
+form div label{
+  font-weight: 500;
+}
+
+.form-check-label{
+  font-weight: 500;
+}
+
+.option{
+  width: 100%; 
+  position: static;
+  right:20px;
+  border-bottom: 1px solid #38a79c; 
+  line-height: 0.2em;
+  margin: 10px 0 20px; 
+  font-weight: bold;
+  color: #38a79c;
+  padding-top: 20px;
+}
+
+.option span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.radioCheckbox-div{
+  padding-top: 20px;
+}
+
+.dogbreed-div, .dogtype-div{
+  padding-left: 20px;
+}
+
+.form-check{
+  padding-left: 30px;  
+}
+
+.div-notes{
+  padding: 20px;
+}
